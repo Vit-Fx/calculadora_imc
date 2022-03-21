@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultadoActivity">
+
+    <TextView
+        android:id="@+id/textViewOla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olá"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewNomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewEsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="você está:"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewAcima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="ACIMA"
+        />
+
+    <TextView
+        android:id="@+id/textViewAbaixo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="ABAIXO"
+        />
+
+    <TextView
+        android:id="@+id/textViewDentro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="DENTRO"
+        />
+
+    <TextView
+        android:id="@+id/textViewIdeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Do peso ideal!"
+        />
+
+</LinearLayout>
